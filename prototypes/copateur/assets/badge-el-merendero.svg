@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="title">
+  <title id="title">Escudo de El Merendero</title>
+  <path fill="#11151c" stroke="#ff4f00" stroke-width="2" d="M32 2 58 11v23c0 17-10 28-26 36C16 62 6 51 6 34V11z"/>
+  <path fill="#ff4f00" d="M10 15 54 8v10L10 25z" opacity=".9"/>
+  <path fill="none" stroke="#f8f3eb" stroke-width="2" d="M16 30h32v22H16z" opacity=".22"/>
+  <text x="32" y="48" fill="#fafaf8" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">EM</text>
+</svg>

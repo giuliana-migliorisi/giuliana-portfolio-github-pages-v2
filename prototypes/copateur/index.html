@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es-419">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dirección visual Electric Editorial Sports para el prototipo de Copateur Mobile.">
+    <meta name="theme-color" content="#07090d">
+    <title>Copateur Mobile — Electric Editorial Sports</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="direction-electric">
+    <header class="portfolio-demo-bar" aria-label="Portfolio prototype controls">
+      <a class="portfolio-return" href="../../cases/copateur/index.html">← Back to case study</a>
+      <span>Interactive prototype</span>
+    </header>
+
+    <div class="prototype-stage">
+      <aside class="reviewer-controls" aria-label="Estado del prototipo">
+        <span class="direction-label"><small>Dirección 2</small><strong>Electric Editorial Sports</strong></span>
+        <div class="reviewer-state">
+          <span><strong>Estado del prototipo</strong><small>Control para evaluación</small></span>
+          <label>
+            <span>Inicio</span>
+            <select id="home-state-control" data-action="switch-home-mode" aria-label="Estado de Inicio en el prototipo">
+              <option value="normal">Normal</option>
+              <option value="exception">Estado con sanción</option>
+            </select>
+          </label>
+        </div>
+      </aside>
+
+      <div class="prototype-frame">
+        <div id="app" class="app-shell">
+          <main id="view" class="app-view" tabindex="-1"></main>
+          <nav id="bottom-nav" class="bottom-nav" aria-label="Navegación principal"></nav>
+        </div>
+      </div>
+    </div>
+
+    <noscript>Este prototipo necesita JavaScript para navegar y cambiar de estado.</noscript>
+  </body>
+</html>

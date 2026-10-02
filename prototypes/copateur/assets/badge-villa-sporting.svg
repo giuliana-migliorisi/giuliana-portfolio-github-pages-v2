@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="title">
+  <title id="title">Escudo de Villa Sporting</title>
+  <path fill="#1e1730" stroke="#b99cff" stroke-width="2" d="M32 2 58 11v23c0 17-10 28-26 36C16 62 6 51 6 34V11z"/>
+  <path fill="#b99cff" d="M14 10h11v49H14zm25 0h11v49H39z" opacity=".35"/>
+  <text x="32" y="46" fill="#f8f3ff" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">VS</text>
+</svg>

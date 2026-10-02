@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="title">
+  <title id="title">Escudo de Deportivo Sur</title>
+  <path fill="#0d2423" stroke="#55d6c2" stroke-width="2" d="M32 2 58 11v23c0 17-10 28-26 36C16 62 6 51 6 34V11z"/>
+  <path fill="#55d6c2" d="M6 17h52v7H6zm0 14h52v7H6z" opacity=".55"/>
+  <circle cx="32" cy="44" r="14" fill="#f2fffc" opacity=".12"/>
+  <text x="32" y="50" fill="#ecfffb" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">DS</text>
+</svg>

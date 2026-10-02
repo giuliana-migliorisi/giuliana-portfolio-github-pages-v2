@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="title">
+  <title id="title">Escudo de Atlético Oeste</title>
+  <path fill="#221315" stroke="#ff6f62" stroke-width="2" d="M32 2 58 11v23c0 17-10 28-26 36C16 62 6 51 6 34V11z"/>
+  <path fill="#ff6f62" d="m7 47 50-31v12L12 56z" opacity=".72"/>
+  <text x="32" y="47" fill="#fff3ef" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">AO</text>
+</svg>

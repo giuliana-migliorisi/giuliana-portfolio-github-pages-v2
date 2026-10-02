@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="title">
+  <title id="title">Escudo de Barrio Norte</title>
+  <path fill="#122219" stroke="#80d58f" stroke-width="2" d="M32 2 58 11v23c0 17-10 28-26 36C16 62 6 51 6 34V11z"/>
+  <path fill="none" stroke="#80d58f" stroke-width="7" d="M16 17h32L16 53h32" opacity=".38"/>
+  <text x="32" y="48" fill="#effff0" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">BN</text>
+</svg>

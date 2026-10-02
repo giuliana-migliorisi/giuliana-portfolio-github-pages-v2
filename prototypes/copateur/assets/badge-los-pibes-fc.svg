@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="title">
+  <title id="title">Escudo de Los Pibes FC</title>
+  <path fill="#101a2a" stroke="#59a8ff" stroke-width="2" d="M32 2 58 11v23c0 17-10 28-26 36C16 62 6 51 6 34V11z"/>
+  <path fill="#59a8ff" d="M7 25h50v9H7z" opacity=".75"/>
+  <path fill="none" stroke="#e9f4ff" stroke-width="2" d="M14 14h36v42H14z" opacity=".18"/>
+  <text x="32" y="50" fill="#f4f9ff" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">LP</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-labelledby="title">
+  <title id="title">Escudo de La Esquina</title>
+  <path fill="#171c27" stroke="#f1c45a" stroke-width="2" d="M32 2 58 11v23c0 17-10 28-26 36C16 62 6 51 6 34V11z"/>
+  <path fill="#f1c45a" d="M9 12h46L9 58z" opacity=".3"/>
+  <path fill="none" stroke="#f1c45a" stroke-width="2" d="M19 20h26v32H19z" opacity=".5"/>
+  <text x="32" y="47" fill="#fff8dd" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">LE</text>
+</svg>
