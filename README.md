@@ -12,7 +12,7 @@ No build step or external asset service is required. The case study's five suppl
 
 1. Unzip this archive. Upload the **contents** (not the enclosing folder) to the root of a GitHub repository.
 2. In the repository's Settings → Pages, deploy from the `main` branch and `/ (root)` folder.
-3. Open the Pages URL, then follow Selected works → FreshStock. Relative links work for both a personal domain and a repository subpath.
+3. Open the Pages URL, then follow Selected Work → FreshStock. Relative links work for both a personal domain and a repository subpath.
 
 ## Replace the portrait
 
