@@ -3,41 +3,151 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f6f3">
-  <meta name="description" content="Giuliana Migliorisi, Senior Product Designer. Selected product work and case studies.">
-  <title>Giuliana Migliorisi — Senior Product Designer</title>
+  <meta name="theme-color" content="#f3f0e9">
+  <meta name="description" content="Giuliana Migliorisi is a Product Designer creating clear, thoughtful digital experiences from complex product problems.">
+  <title>Giuliana Migliorisi — Product Designer</title>
   <link rel="stylesheet" href="assets/site.css">
-  <style>
-    .home-work-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(420px,1.2fr);gap:clamp(48px,7vw,110px);align-items:center}
-    .work-callout .home-work-copy h2{margin:18px 0 12px}
-    .work-callout .home-project-meta{margin:0 0 18px;color:#a8ead0;font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
-    .work-callout .home-project-summary{margin:0;color:#bcd0ca;font-size:1.08rem;line-height:1.6}
-    .work-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:30px}
-    .work-callout .work-actions a{margin-top:0}
-    .work-callout .work-index-link{background:transparent;color:#e3f1ea;border:1px solid #52656a}
-    .work-callout .work-index-link:hover{background:#25383e}
-    .work-callout .work-preview{display:block;aspect-ratio:2.2/1;margin:0;padding:0;background:#0a0d12;border:1px solid #3e5055;border-radius:4px;overflow:hidden}
-    .work-callout .work-preview:hover{background:#0a0d12}
-    .work-preview img{width:100%;height:100%;object-fit:cover;object-position:center 25%;transition:transform .35s ease}
-    .work-preview:hover img{transform:scale(1.015)}
-    @media(max-width:900px){.home-work-grid{grid-template-columns:1fr}.work-preview{max-width:720px}}
-    @media(max-width:650px){.work-actions{align-items:stretch;display:grid}.work-callout .work-actions a{justify-content:space-between}.work-callout .work-preview{aspect-ratio:1.45/1}.work-preview img{object-position:center center}}
-  </style>
 </head>
-<body>
+<body class="home-page">
   <a class="skip" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="identity" href="index.html" aria-label="Giuliana Migliorisi, home"><span class="wordmark">giuliana<span>.</span></span><span class="role">Senior Product Designer</span></a>
-      <nav class="main-nav" aria-label="Main navigation"><a href="#about" aria-current="page">About me</a><a href="selected-works.html">Selected works</a></nav>
+      <a class="identity" href="index.html" aria-label="Giuliana Migliorisi, home">
+        <span class="wordmark">giuliana<span>.</span></span>
+        <span class="role">Product Designer</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About me</a>
+      </nav>
     </div>
   </header>
+
   <main id="main">
-    <section class="hello" aria-labelledby="hello-title"><div class="wrap"><h1 id="hello-title">Hello!</h1><p class="intro">I'm Giuliana, a Senior Product Designer making complex digital experiences feel clear, useful, and considered.</p><p class="sub">Product thinking · UX journeys · Interfaces · Design systems</p><a class="scroll-cue" href="#about">Get to know me <i aria-hidden="true">↓</i></a></div></section>
-    <section class="section" id="about"><div class="wrap about-grid"><figure class="portrait"><img src="assets/portrait-placeholder.png" alt="Anonymous editorial portrait used as a temporary placeholder for Giuliana's future photograph" width="1024" height="1536"><figcaption>Temporary portrait for layout preview. Giuliana’s photograph will replace it.</figcaption></figure><div class="about-copy"><p class="eyebrow section-label">01 / About me</p><h2>I connect the <em>big picture</em> with the details people actually use.</h2><p>My work spans the structure of a product journey, the decisions inside each screen, and the systems that keep an experience coherent as it grows.</p><p>In this portfolio, I show the reasoning behind the interface: what the product needs to enable, how people move through it, and how visual decisions support that path.</p><a class="text-link" href="selected-works.html">Explore selected work <span aria-hidden="true">↗</span></a></div></div></section>
-    <section class="section approach" id="approach"><div class="wrap"><p class="eyebrow section-label">02 / How I think</p><div class="approach-head"><h2>From a messy question to a focused experience.</h2><p>Product design works best when the problem, the journey, and the interface reinforce one another.</p></div><div class="approach-grid"><article class="principle"><span>01 / Frame</span><h3>Understand the problem.</h3><p>Make the goal, constraints, and unanswered questions visible before choosing a solution.</p></article><article class="principle"><span>02 / Connect</span><h3>Map the journey.</h3><p>Look at how people discover, decide, complete a task, and return later.</p></article><article class="principle"><span>03 / Refine</span><h3>Design a system.</h3><p>Use clear patterns and states so the experience holds together beyond one screen.</p></article></div></div></section>
-    <section class="work-callout" aria-labelledby="work-title"><div class="wrap home-work-grid"><div class="home-work-copy"><p class="eyebrow">03 / Featured work</p><h2 id="work-title">Copateur Mobile</h2><p class="home-project-meta">Product Design · UX/UI · AI-assisted workflow</p><p class="home-project-summary">A player-centered mobile experience for amateur football, developed from product framing through an interactive prototype.</p><div class="work-actions"><a href="cases/copateur/index.html">View case study <span aria-hidden="true">↗</span></a><a class="work-index-link" href="selected-works.html">View selected works <span aria-hidden="true">→</span></a></div></div><a class="work-preview" href="cases/copateur/index.html" aria-label="View the Copateur Mobile case study"><img src="assets/copateur-selected-work.webp" alt="Copateur Mobile interface showing Home, suspended Player, and Match Detail screens" width="1536" height="1024"></a></div></section>
+    <section class="home-hero" aria-labelledby="hero-title">
+      <div class="wrap hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Product Designer · Buenos Aires</p>
+          <h1 id="hero-title">Turning complex product problems into <em>clear digital experiences.</em></h1>
+          <p class="hero-lead">I’m Giuliana, a Product Designer who connects user needs, business goals, and thoughtful interface decisions—from early framing through delivery.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="#about">About me <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="Giuliana's design focus">
+          <p class="hero-note-label">Design focus</p>
+          <p class="hero-note-statement">Make the path feel simpler than the problem behind it.</p>
+          <div class="hero-note-list">
+            <span>Frame the problem</span>
+            <span>Shape the journey</span>
+            <span>Refine the system</span>
+          </div>
+        </aside>
+      </div>
+      <div class="wrap hero-footer" aria-label="Core capabilities">
+        <span>Product thinking</span>
+        <span>UX research &amp; flows</span>
+        <span>Interaction &amp; interface design</span>
+        <span>Prototyping &amp; reusable systems</span>
+      </div>
+    </section>
+
+    <section class="selected-work" id="work" aria-labelledby="work-title">
+      <div class="wrap section-heading">
+        <p class="eyebrow">01 / Selected work</p>
+        <div>
+          <h2 id="work-title">Product stories, from the problem to the experience.</h2>
+          <p>Two case studies showing how research, product thinking, interaction design, and delivery come together.</p>
+        </div>
+      </div>
+
+      <div class="wrap project-stack">
+        <article class="project-feature project-copateur">
+          <div class="project-copy">
+            <p class="project-index">Case study 01</p>
+            <h3>Copateur Mobile</h3>
+            <p class="project-meta">Product Design · UX/UI · AI-assisted workflow</p>
+            <p class="project-summary">Reframing a public, tournament-first web experience into a personalized mobile product for authenticated amateur football players.</p>
+            <a class="project-link" href="cases/copateur/index.html" aria-label="Read the Copateur Mobile case study">Read case study <span aria-hidden="true">↗</span></a>
+          </div>
+          <a class="project-media copateur-media" href="cases/copateur/index.html" aria-label="Open the Copateur Mobile case study">
+            <img src="assets/copateur-selected-work.webp" alt="Copateur Mobile home, suspended player state, and match detail interfaces" width="1536" height="1024">
+          </a>
+        </article>
+
+        <article class="project-feature project-freshstock">
+          <a class="project-media freshstock-media" href="cases/freshstock/index.html" aria-label="Open the FreshStock case study">
+            <span class="freshstock-shape" aria-hidden="true"></span>
+            <span class="freshstock-phone freshstock-phone-one"><img src="assets/freshstock-discovery.png" alt="FreshStock mobile library with search, themes, asset types, and new designs" width="204" height="516"></span>
+            <span class="freshstock-phone freshstock-phone-two"><img src="assets/freshstock-detail.png" alt="FreshStock mobile asset detail with save, download, and related results" width="204" height="430"></span>
+            <span class="project-status">Shipped product</span>
+          </a>
+          <div class="project-copy">
+            <p class="project-index">Case study 02</p>
+            <h3>FreshStock</h3>
+            <p class="project-meta">Product Design / UX Research · Design Pickle</p>
+            <p class="project-summary">Connecting discovery, evaluation, organization, and download across a responsive library of editable creative assets.</p>
+            <a class="project-link" href="cases/freshstock/index.html" aria-label="Read the FreshStock case study">Read case study <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <div class="all-work-link">
+          <span>02 in-depth case studies</span>
+          <a class="text-link" href="selected-works.html">View selected works <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <figure class="portrait">
+          <div class="portrait-frame"><img src="assets/giuliana-migliorisi-portrait.jpg" alt="Portrait of Giuliana Migliorisi" width="1080" height="1006"></div>
+        </figure>
+        <div class="about-copy">
+          <p class="eyebrow">02 / About me</p>
+          <h2 id="about-title">I bring structure to complexity—and care to the details.</h2>
+          <p>I’m a Product Designer based in Buenos Aires, creating human-centered digital experiences that balance what people need with what a product needs to achieve. My background in communication helps me ask better questions, clarify ideas, and make decisions with intent.</p>
+          <p>I work across product framing, UX flows, interface design, and prototyping in Figma, using reusable patterns to keep experiences coherent as they grow. I value close collaboration with product and engineering, and I stay involved through handoff and implementation to protect both usability and visual quality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="capabilities" aria-labelledby="capabilities-title">
+      <div class="wrap capabilities-layout">
+        <div>
+          <p class="eyebrow">03 / How I work</p>
+          <h2 id="capabilities-title">One connected design practice.</h2>
+        </div>
+        <div class="capability-list">
+          <article><span>01</span><h3>Understand</h3><p>Frame the product problem through context, constraints, user needs, business goals, existing evidence, research, and feedback.</p></article>
+          <article><span>02</span><h3>Connect</h3><p>Translate that understanding into information architecture, journeys, flows, priorities, and product logic.</p></article>
+          <article><span>03</span><h3>Make</h3><p>Move from early thinking into interface design, prototyping, reusable patterns, and iterative visual refinement.</p></article>
+          <article><span>04</span><h3>Deliver</h3><p>Collaborate through handoff, behavior clarification, implementation review, visual QA, and functional QA.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-closing" aria-labelledby="closing-title">
+      <div class="wrap closing-layout">
+        <p class="eyebrow">Keep exploring</p>
+        <div>
+          <h2 id="closing-title">See the thinking behind the screens.</h2>
+          <p class="closing-support">Explore the research, product decisions, flows, visual systems, and implementation thinking behind each project.</p>
+          <div class="closing-links">
+            <a href="selected-works.html">View selected works <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="footer"><div class="wrap footer-inner"><span>© Giuliana Migliorisi · Product design portfolio</span><a href="selected-works.html">Selected works ↗</a></div></footer>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>© Giuliana Migliorisi · Product Designer</span>
+      <a href="#main">Back to top ↑</a>
+    </div>
+  </footer>
 </body>
 </html>
