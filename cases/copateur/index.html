@@ -73,6 +73,12 @@
     .main-nav { display: flex; gap: 32px; align-items: center; }
     .main-nav a { font-size: .86rem; font-weight: 650; text-decoration: none; white-space: nowrap; }
     .main-nav a:hover { text-decoration: underline; text-underline-offset: 5px; }
+    .case-nav-row { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow: hidden; }
+    .case-nav { display: flex; align-items: center; gap: 25px; min-height: 48px; overflow-x: auto; scrollbar-width: none; }
+    .case-nav::-webkit-scrollbar { display: none; }
+    .case-nav a { flex: 0 0 auto; color: #b7bbc2; font-size: .69rem; font-weight: 700; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; white-space: nowrap; }
+    .case-nav a:hover, .case-nav a:focus-visible { color: #fff; text-decoration: underline; text-underline-offset: 5px; }
+    #context, #ai-workflow, #flows, #system, #final-experience, #outcome { scroll-margin-top: 150px; }
     .hero { position: relative; min-height: 900px; overflow: hidden; padding: 170px 0 80px; background: radial-gradient(circle at 80% 15%, rgba(255,79,0,.17), transparent 34%), linear-gradient(120deg, #07090d 20%, #0c0d12 63%, #17100e); }
     .hero::before { content: ""; position: absolute; width: 920px; aspect-ratio: 1; border: 1px solid rgba(255,79,0,.17); border-radius: 50%; right: -350px; top: 100px; box-shadow: 0 0 0 150px rgba(255,79,0,.035), 0 0 0 320px rgba(255,255,255,.018); }
     .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(500px, 1fr); align-items: center; gap: 2vw; position: relative; }
@@ -344,7 +350,9 @@
       .role { display: none; }
       .main-nav { gap: 14px; }
       .main-nav a { font-size: .74rem; }
-      .hero { padding-top: 114px; padding-bottom: 70px; }
+      .case-nav { gap: 18px; min-height: 46px; }
+      .case-nav a { font-size: .62rem; }
+      .hero { padding-top: 150px; padding-bottom: 70px; }
       .hero h1 { font-size: clamp(2.75rem, 11.8vw, 3.8rem); max-width: 620px; }
       .hero-visual { height: 580px; margin-left: -20px; margin-right: -20px; }
       .hero-device.primary { width: 245px; left: 17%; }
@@ -427,6 +435,16 @@
         <a href="../../index.html#about">About me</a>
         <a href="../../selected-works.html">Selected works</a>
       </nav>
+    </div>
+    <div class="case-nav-row">
+      <div class="wrap"><nav class="case-nav" aria-label="Copateur case study sections">
+        <a href="#context">Overview</a>
+        <a href="#ai-workflow">AI Workflow</a>
+        <a href="#flows">Core Journeys</a>
+        <a href="#system">Design System</a>
+        <a href="#final-experience">Final Experience</a>
+        <a href="#outcome">Outcome</a>
+      </nav></div>
     </div>
   </header>
 
@@ -734,7 +752,7 @@
 
     <section class="section reflection" id="reflection">
       <div class="wrap">
-        <div class="section-intro" data-reveal><p class="eyebrow"><span class="section-number">16</span> / Reflection</p><div><h2>AI changed the pace—not the responsibility.</h2><p class="lead">The workflow shortened the path from a question to a documented decision, interactive artifact, and implementation-ready system.</p></div></div>
+        <div id="outcome" class="section-intro" data-reveal><p class="eyebrow"><span class="section-number">16</span> / Reflection</p><div><h2>AI changed the pace—not the responsibility.</h2><p class="lead">The workflow shortened the path from a question to a documented decision, interactive artifact, and implementation-ready system.</p></div></div>
         <div class="reflection-grid" data-reveal>
           <article><h3>What AI changed</h3><ul><li>Faster exploration</li><li>Earlier interactive prototypes</li><li>Easier visual comparison</li><li>Shorter design-to-code loop</li><li>Clearer iteration history</li></ul></article>
           <article><h3>What remained designer-led</h3><ul><li>Framing and prioritization</li><li>Interpretation and critique</li><li>Navigation decisions</li><li>Final visual selection</li></ul></article>
